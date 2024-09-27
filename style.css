@@ -1,0 +1,45 @@
+/* Reset some basic styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set background and font properties */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Center the content and give it a modern card style */
+.container {
+  text-align: center;
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Date and time styling */
+#datetime p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Add styling to the date and time display */
+#time {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ff7e5f;
+}
